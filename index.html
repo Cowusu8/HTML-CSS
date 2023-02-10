@@ -1,59 +1,71 @@
-
 <!DOCTYPE html>
 <html>
-
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Crystal's Flower Gallery</title>
-	<link rel="stylesheet" href="style.css">
+	<title>Flower Garden</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+
+<style> 
+body {
+  background-image: url(css/images/color.jpg)
+}
+</style>
 </head>
 
+
 <body>
-	<h1>Crystal's Flower Gallery</h1>
-	<img src="bloom.jpg" alt="pink flower" width="300" height="300">
-	<img src="purple.jpg" alt="purple flower" width="300" height="300">
-	<img src="git.jpeg" alt="purple flower" width="300" height="300">
-
-	<p style="background-color:lightpink;">Flowers are symbolic of beauty, love and tranquillity. They form the soul of a garden and convey the message of nature Flowers are symbolic of beauty, love and tranquillity. They form the soul of a garden and convey the message of nature to man. Flowers are used on all festive occasions and in parties and religious ceremonies. Flowers are symbolic of beauty, love and tranquillity. They form the soul of a garden and convey the message of nature Flowers are symbolic of beauty, love and tranquillity. They form the soul of a garden and convey the message of nature to man. Flowers are used on all festive occasions and in parties and religious ceremonies.Flowers are symbolic of beauty, love and tranquillity. 
-
-<h3>Different Kinds of Flowers</h3>	
-	<ol>
-  <li>Jasmine</li>
-  <li>Hibiscus</li>
-  <li>Rose</li>
-  <li>Sunflower</li>
-  <li>Daisy</li>
-  <li>Lavender</li>
-	</ol>
-
-  <header>
-  	<a href="https://onecompiler.com/cheatsheets/java" id="logo"></a>
-  		<nav>
-  		<a href="https://www.flowersname.in" id="menu-icon"></a>
-  		<ul>
-			<!--<li> <a href="https://en.wikipedia.org/wiki/Ghana" class="current" ></a>  </li> this is a comment-->
-			<li> <a href="https://paraphrasing-tool.com" >About</a>  </li>
-			<li> <a href="https://www.astroyogi.com/zodiac-signs/cancer/woman" title="PF">Work</a>  </li>
-			<li> <a href="https://www.w3schools.com/html/html_css.asp" target="_blank" >Blog </a>  </li>
-			<li> <a href="https://en.wikipedia.org/wiki/Ghana">Contact</a>  </li>
-
-		</ul>
-		</nav>
-	</header>
-
-	<table border="1">
-<tr>
-<th>Spring Flowers</th><th>Summer Flowers</th>
-</tr>
-<tr>
-<td>Light Color</td><td>Bright Color</td>
-</tr>
-<tr>
-<td>Table cell 3</td><td>Table cell 4</td>
-</tr>
-	</table>
 
 
+ <!-- Nav Bar -->  
+<nav class="navbar navbar-expand-md bg-light justify-content-md-end container-fluid">
+    <ul class="navbar nav"> 
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="SignIn.html">Sign In</a></li>
+    </ul>
+</nav> 
+
+<button onclick="myFunction()" style="background-color: rgb(55, 246, 8);">Click me</button>
+ 
+<h1 style="color: rgb(237, 241, 7); font-size: 75px; background-color: rgba(240, 248, 255, 0.184);" > <b> Welcome to Flower Garden</b></h1>
+
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item-active">
+      <img src="css/images/pink.jpeg" alt="Los Angeles" class="w-100" height="500">
+    </div>
+     <div class="carousel-item">
+      <img src="css/images/rose.jpg" alt="Chicago" class="w-100" height="100">
+    </div>
+    <div class="carousel-item">
+      <img src="css/images/yellow.jpg" alt="New York" class="w-100" height="100">
+    </div>
+  </div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
