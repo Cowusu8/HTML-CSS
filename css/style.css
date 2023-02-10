@@ -1,0 +1,17 @@
+
+h1{
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 75px;
+  color: rgb(74, 213, 27);
+}
+
+.table{
+  color: white;
+}
+
+p {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  background: rgba(132, 34, 113, 0.579);
+}
